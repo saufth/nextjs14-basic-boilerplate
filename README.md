@@ -2,12 +2,13 @@
 
 A [Next.js 14](https://nextjs.org/docs/14) basic configuration used as a starting point for new projects.
 
-[![Next.js 14 Basic Boilerplate](./public/opengraph-image.png)](https://nextjs14-basic-boilerplate.vercel.app)
+[![Next.js 14 Basic Boilerplate](./public/opengraph-image.jpg)](https://nextjs14-basic-boilerplate.vercel.app)
 
 ## Tech Stack
 
 - **Framework:** [Next.js 14](https://nextjs.org/docs/14)
 - **Styling:** [Tailwind CSS 3](https://v3.tailwindcss.com)
+- **Validation:** [Zod](https://zod.dev)
 - **UI Components:** [shadcn/ui](https://ui.shadcn.com)
 
 ## Import Order
