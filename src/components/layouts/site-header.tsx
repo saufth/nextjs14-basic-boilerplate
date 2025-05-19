@@ -2,7 +2,7 @@ import { ModeToggle } from '@/components/layouts/mode-toggle'
 import { CallToAction } from '@/components/call-to-action'
 import { SaufthLogo } from '@/components/logotype'
 
-export function SiteHeader() {
+export function SiteHeader () {
   return (
     <header className='sticky top-0 z-50 w-full border-b bg-background'>
       <div className='container flex h-16 items-center'>

@@ -58,7 +58,7 @@ export const viewport: Viewport = {
   ]
 }
 
-export default async function RootLayout({ children }: LayoutProps) {
+export default async function RootLayout ({ children }: LayoutProps) {
   return (
     <html lang='en'>
       <body
