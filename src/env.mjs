@@ -1,8 +1,5 @@
 import { createEnv } from '@t3-oss/env-nextjs'
-import {
-  enum as zodEnum,
-  string as zodString
-} from 'zod'
+import { z } from 'zod'
 
 export const env = createEnv({
   /**
@@ -10,7 +7,7 @@ export const env = createEnv({
    * isn't built with invalid env vars.
    */
   server: {
-    NODE_ENV: zodEnum(['development', 'test', 'production'])
+    NODE_ENV: z.enum(['development', 'test', 'production'])
       .default('development')
   },
   /**
@@ -19,7 +16,7 @@ export const env = createEnv({
    * `NEXT_PUBLIC_`.
    */
   client: {
-    NEXT_PUBLIC_APP_URL: zodString().url()
+    NEXT_PUBLIC_APP_URL: z.string().url()
   },
   /**
    * You can't destruct `process.env` as a regular object in the Next.js edge runtimes (e.g.
