@@ -18,16 +18,16 @@
       "dom.iterable",
       "es2024"
     ],
-    "noEmit": true,
     "module": "esnext",
     "moduleResolution": "bundler",
     "jsx": "preserve",
+    "noEmit": true,
+    "incremental": true,
     "plugins": [
       {
         "name": "next"
       }
     ],
-    "incremental": true,
     /* Path Aliases */
     "baseUrl": ".",
     "paths": {
